@@ -3,11 +3,11 @@ set nocompatible
 filetype off
 
 let first_vundle = 0
-let vundle_readme=expand('~/.vim/bundle/vundle/README.md')
+let vundle_readme=expand('~/.vim/bundle/Vundle.vim/README.md')
 if !filereadable(vundle_readme)
     echo "Vundle is missing. Installing..."
     silent !mkdir -p ~/.vim/bundle
-    silent !git clone 'https://github.com/VundleVim/Vundle.vim' ~/.vim/bundle/vundle
+    silent !git clone 'https://github.com/gmarik/vundle.vim' ~/.vim/bundle/Vundle.vim
     let first_vundle = 1
 endif
 

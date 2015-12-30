@@ -48,7 +48,7 @@ bindkey "^H" backward-delete-word
 
 # prompt stuff {{{
 function prompt_git {
-    echo `git branch 2>/dev/null | sed -n '/\* /s///p'
+    echo `git branch 2>/dev/null | sed -n '/\* /s///p'`
 }
 
 setopt promptsubst
