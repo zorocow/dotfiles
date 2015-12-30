@@ -1,0 +1,11 @@
+[user]
+	name = zorocow
+	email = zorocow@gmail.com
+
+[alias]
+	co = checkout
+	cob = checkout -b
+    save = !git add -A && git commit -m
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit
+[push]
+	default = simple
