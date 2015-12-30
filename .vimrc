@@ -7,7 +7,7 @@ let vundle_readme=expand('~/.vim/bundle/Vundle.vim/README.md')
 if !filereadable(vundle_readme)
     echo "Vundle is missing. Installing..."
     silent !mkdir -p ~/.vim/bundle
-    silent !git clone 'https://github.com/gmarik/vundle.vim' ~/.vim/bundle/Vundle.vim
+    silent !git clone 'https://github.com/gmarik/Vundle.vim' ~/.vim/bundle/Vundle.vim
     let first_vundle = 1
 endif
 
